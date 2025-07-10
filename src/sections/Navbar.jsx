@@ -110,12 +110,12 @@ const Navbar = () => {
         className="fixed z-50 flex flex-col justify-between w-screen h-full px-6 sm:px-10 uppercase bg-white text-black py-20 sm:py-28 gap-y-8 sm:gap-y-10 md:w-1/2 md:left-1/2"
       >
         <div className="flex flex-col text-lg sm:text-xl md:text-3xl lg:text-4xl xl:text-6xl gap-y-2">
-          {["startseite", "dienstleistungen", "über mich", "arbeiten", "kontakt"].map(
+          {["startseite", "dienstleistungen", "schulung & coaching", "über mich", "arbeiten", "kontakt"].map(
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link
                   className="transition-all duration-300 cursor-pointer hover:text-gray-600 break-all leading-tight"
-                  to={`${section === "startseite" ? "home" : section === "dienstleistungen" ? "services" : section === "über mich" ? "about" : section === "arbeiten" ? "work" : "contact"}`}
+                  to={`${section === "startseite" ? "home" : section === "dienstleistungen" ? "services" : section === "schulung & coaching" ? "training" : section === "über mich" ? "about" : section === "arbeiten" ? "work" : "contact"}`}
                   smooth
                   offset={0}
                   duration={2000}
