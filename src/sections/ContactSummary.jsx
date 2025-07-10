@@ -41,10 +41,7 @@ const ContactSummary = () => {
       <Marquee items={items} />
       <div className="overflow-hidden font-light text-center contact-text-responsive">
         <p>
-          " Lass uns eine <br />
-          <span className="font-normal">unvergessliche</span> &{" "}
-          <span className="italic">inspirierende</span> <br />
-          Webanwendung <span className="text-gold">gemeinsam</span> erstellen "
+          Zeigen Sie mir Ihren Prozess – ich digitalisiere und automatisiere ihn, damit Sie Zeit und Geld sparen
         </p>
       </div>
       <Marquee

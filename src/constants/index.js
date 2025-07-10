@@ -41,38 +41,38 @@ export const servicesData = [
   {
     title: "Sicherheit & Optimierung",
     description:
-      "Langsame oder gehackte Apps zerstören Vertrauen. Ich härte Sicherheit (XSS/SQLI-Schutz, OAuth) und optimiere Engpässe, damit deine App schnell, sicher und skalierbar bleibt, während du wächst.",
+      "Unsichere Systeme und langsame Abläufe kosten Vertrauen und Effizienz.\nIch sichere digitale Infrastrukturen, schließe Schwachstellen und optimiere Prozesse –\nfür stabile, skalierbare und wartungsarme Systeme, die mit deinem Unternehmen mitwachsen.",
     items: [
       {
-        title: "Code-Audits",
-        description: "(Refactoring, Tech-Debt-Bereinigung)",
+        title: "Sicherheitsaudits und Schwachstellenanalyse",
+        description: "(Systemprüfung, Risikoerkennung, Schutzmaßnahmen)"
       },
       {
-        title: "Penetrationstests",
-        description: "(Schwachstellenbewertungen)",
+        title: "Prozessoptimierung und Systemhärtung",
+        description: "(Effizienzsteigerung, Angriffsflächen minimieren)"
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadaten, Strukturierte Daten)",
+        title: "DSGVO-konforme Datenverarbeitung",
+        description: "(Datenschutz, Compliance, sichere Abläufe)"
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Web und Mobile Tools für jedes Unternehmen",
     description:
-      "Ein umständliches Interface kann selbst die besten Ideen versenken. Ich erstelle responsive, pixelperfekte Web- und Mobile-Apps (React Native/Flutter), die Benutzer lieben—und verbinde Design und Funktionalität nahtlos.",
+      "Komplizierte Interfaces kosten Zeit und bremsen Abläufe.\nIch entwickle smarte responsive Tools für Web und Mobile\nmaßgeschneidert für Startups KMUs und große Unternehmen.\nDesign und Funktionalität greifen nahtlos ineinander damit Prozesse schneller und intuitiver ablaufen.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Ein Codebase für iOS/Android/Web)",
+        title: "Cross Platform Anwendungen für jede Branche",
+        description: "(Web, Mobile, Desktop – alles aus einer Hand)"
       },
       {
-        title: "PWAs",
-        description: "(Offline-Modus, Push-Benachrichtigungen)",
+        title: "Progressive Web Apps für maximale Effizienz",
+        description: "(Offline-Fähigkeit, Push, Performance)"
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout-Flows, Zahlungsgateways, Inventar-APIs)",
+        title: "Individuelle E Commerce Lösungen für skalierbares Wachstum",
+        description: "(Shop-Systeme, Zahlungsintegration, Wachstum)"
       },
     ],
   },
@@ -80,93 +80,101 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Zubehör E-Commerce",
+    name: "IGOULTRA – Hybride Trainings- und Lernplattform mit Gamification (in Arbeit)",
     description:
-      "Ein Online-Shop, der sich auf Telefonzubehör spezialisiert, einschließlich Hüllen, Ladegeräte, Kabel und Powerbanks mit MagSafe-Kompatibilität.",
+      "Hybride Plattform für digitales Lernen, Training und Gamification. Nutzer können Lerninhalte absolvieren, Fortschritte tracken und sich mit anderen messen.",
     href: "",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 2, name: "Django" },
+      { id: 3, name: "RESTful API" },
+      { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Nude.js" },
     ],
   },
   {
     id: 2,
-    name: "Pflanzen-Shop E-Commerce",
+    name: "n8n Automation Suite – Automatisierte Datenflüsse und Aufgabensteuerung",
     description:
-      "Ein Online-Shop, der sich auf seltene und dekorative Pflanzen mit einer sauberen, benutzerfreundlichen Oberfläche spezialisiert.",
+      "Automatisierung von Workflows und Datenflüssen mit n8n. Integration von Webhooks, REST APIs, Google Sheets und Notion für effiziente Prozesssteuerung.",
     href: "",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "n8n" },
+      { id: 2, name: "Webhook Workflows" },
+      { id: 3, name: "REST API" },
+      { id: 4, name: "Google Sheets" },
+      { id: 5, name: "Notion API" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marktplatz",
+    name: "3yAGI – Blogplattform rund um AGI und digitale Entwicklung",
     description:
-      "Eine E-Commerce-Plattform für Apple-Produkte und Zubehör mit Angeboten und Kategorie-Filterung.",
+      "Blogplattform mit Fokus auf AGI, KI und digitale Transformation. Moderne Backend-Architektur und Cloud-Deployment.",
     href: "",
     image: "/assets/projects/apple-tech-store.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
+      { id: 1, name: "Django" },
+      { id: 2, name: "Python" },
+      { id: 3, name: "PostgreSQL" },
       { id: 4, name: "Bootstrap" },
+      { id: 5, name: "Cloudinary" },
+      { id: 6, name: "Heroku" },
     ],
   },
   {
     id: 4,
-    name: "Elektronik & Gadgets Store",
+    name: "Cyberpunk Memory – Interaktives Memory Game in dystopischer Ästhetik",
     description:
-      "Ein Multi-Kategorie-Online-Shop mit Elektronik, Haushaltsgeräten und Gaming-Ausrüstung mit Sonderangeboten.",
+      "Ein Memory-Spiel mit Cyberpunk-Design, KI-generierten Grafiken und ChatGPT-Integration. Läuft komplett im Browser.",
     href: "",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "JavaScript" },
+      { id: 4, name: "GitHub Pages" },
+      { id: 5, name: "DALL·E 3" },
+      { id: 6, name: "ChatGPT 4" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marktplatz",
+    name: "Fuut – Plattform für nachhaltige und automatisierte Food Innovation",
     description:
-      "Eine kuratierte Sammlung von Designer-Home-Decor-Artikeln, einschließlich Möbel und Kunsthandwerk-Vasen.",
+      "Webplattform für nachhaltige Food-Innovationen mit automatisierten Prozessen und modernen Webtechnologien.",
     href: "",
     image: "/assets/projects/home-decor-store.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "HTML" },
+      { id: 2, name: "CSS" },
+      { id: 3, name: "JavaScript" },
+      { id: 4, name: "GitHub Pages" },
+      { id: 5, name: "Google Fonts" },
+      { id: 6, name: "Font Awesome" },
     ],
   },
   {
     id: 6,
-    name: "Digital Game Store",
+    name: "Make Automatisierung – No Code Workflows für E-Mail und Marketing Prozesse",
     description:
-      "Eine Gaming-Plattform mit vergünstigten Titeln, Bestsellern und genrebasiertem Browsen.",
+      "No-Code Automatisierung von E-Mail- und Marketing-Prozessen mit Make, Airtable, Google Drive und HTTP-Modulen.",
     href: "",
     image: "/assets/projects/game-store.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Make" },
+      { id: 2, name: "SMTP" },
+      { id: 3, name: "HTTP Module" },
+      { id: 4, name: "Airtable" },
+      { id: 5, name: "Google Drive" },
     ],
   },
 ];
