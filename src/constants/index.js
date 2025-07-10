@@ -20,21 +20,21 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud-Lösungen",
+    title: "Automation und smarte Infrastruktur",
     description:
-      "Software-Deployment sollte kein Glücksspiel sein. Ich automatisiere Infrastruktur, erzwinge Sicherheit und nutze Cloud-Plattformen (AWS/Azure), um deine App reibungslos laufen zu lassen—24/7, in jeder Größe.",
+      "Digitale Prozesse dürfen keine Zeitfresser sein.\nIch automatisiere Abläufe mit Tools wie n8n, sorge für stabile Infrastrukturen und setze auf moderne Cloud-Technologien,\num deine digitalen Systeme rund um die Uhr effizient und skalierbar laufen zu lassen – DSGVO-konform und wartungsarm.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "Workflow-Automatisierung mit n8n",
+        description: "(Automatisierte Abläufe, Integration von Tools)"
       },
       {
-        title: "Server-Management",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Skalierbare Infrastruktur und Cloud-Plattformen",
+        description: "(AWS, Azure, moderne Cloud-Architekturen)"
       },
       {
-        title: "Performance-Optimierung",
-        description: "(Caching, Komprimierung, Lighthouse 90+ Scores)",
+        title: "Stabile Deployments und System-Monitoring",
+        description: "(Zuverlässigkeit, Überwachung, Wartung)"
       },
     ],
   },
