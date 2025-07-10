@@ -85,7 +85,7 @@ export const projects = [
       "Hybride Plattform für digitales Lernen, Training und Gamification. Nutzer können Lerninhalte absolvieren, Fortschritte tracken und sich mit anderen messen.",
     href: "",
     image: "/assets/projects/igoultra.png",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+    bgImage: "/assets/backgrounds/back1.png",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Django" },
@@ -101,7 +101,7 @@ export const projects = [
       "Automatisierung von Workflows und Datenflüssen mit n8n. Integration von Webhooks, REST APIs, Google Sheets und Notion für effiziente Prozesssteuerung.",
     href: "",
     image: "/assets/projects/n8n-screenshot-readme.png",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    bgImage: "/assets/backgrounds/back2.png",
     frameworks: [
       { id: 1, name: "n8n" },
       { id: 2, name: "Webhook Workflows" },
@@ -117,7 +117,7 @@ export const projects = [
       "Blogplattform mit Fokus auf AGI, KI und digitale Transformation. Moderne Backend-Architektur und Cloud-Deployment.",
     href: "",
     image: "/assets/projects/mockupBlog.png",
-    bgImage: "/assets/backgrounds/map.jpg",
+    bgImage: "/assets/backgrounds/back3.png",
     frameworks: [
       { id: 1, name: "Django" },
       { id: 2, name: "Python" },
@@ -134,7 +134,7 @@ export const projects = [
       "Ein Memory-Spiel mit Cyberpunk-Design, KI-generierten Grafiken und ChatGPT-Integration. Läuft komplett im Browser.",
     href: "",
     image: "/assets/projects/techsiniMemory.png",
-    bgImage: "/assets/backgrounds/poster.jpg",
+    bgImage: "/assets/backgrounds/back4.png",
     frameworks: [
       { id: 1, name: "HTML" },
       { id: 2, name: "CSS" },
@@ -151,7 +151,7 @@ export const projects = [
       "Webplattform für nachhaltige Food-Innovationen mit automatisierten Prozessen und modernen Webtechnologien.",
     href: "",
     image: "/assets/projects/fuut.png",
-    bgImage: "/assets/backgrounds/table.jpg",
+    bgImage: "/assets/backgrounds/back5.png",
     frameworks: [
       { id: 1, name: "HTML" },
       { id: 2, name: "CSS" },
@@ -168,7 +168,7 @@ export const projects = [
       "No-Code Automatisierung von E-Mail- und Marketing-Prozessen mit Make, Airtable, Google Drive und HTTP-Modulen.",
     href: "",
     image: "/assets/projects/make.png",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    bgImage: "/assets/backgrounds/back1.png",
     frameworks: [
       { id: 1, name: "Make" },
       { id: 2, name: "SMTP" },
