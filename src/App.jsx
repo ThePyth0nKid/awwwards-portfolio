@@ -9,10 +9,15 @@ import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
+import CTAButton from "./components/CTAButton";
+import CTAModal from "./components/CTAModal";
 
 const App = () => {
   const { progress } = useProgress();
   const [isReady, setIsReady] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const handleOpenModal = () => setModalOpen(true);
+  const handleCloseModal = () => setModalOpen(false);
 
   useEffect(() => {
     if (progress === 100) {
@@ -44,10 +49,13 @@ const App = () => {
         <Hero />
         <ServiceSummary />
         <Services />
+        <CTAButton onClick={handleOpenModal} />
         <About />
         <Works />
+        <CTAButton onClick={handleOpenModal} />
         <ContactSummary />
         <Contact />
+        <CTAModal isOpen={modalOpen} onClose={handleCloseModal} />
       </div>
     </ReactLenis>
   );
