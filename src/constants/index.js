@@ -84,7 +84,7 @@ export const projects = [
     description:
       "Hybride Plattform für digitales Lernen, Training und Gamification. Nutzer können Lerninhalte absolvieren, Fortschritte tracken und sich mit anderen messen.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/igoultra.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -100,7 +100,7 @@ export const projects = [
     description:
       "Automatisierung von Workflows und Datenflüssen mit n8n. Integration von Webhooks, REST APIs, Google Sheets und Notion für effiziente Prozesssteuerung.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/n8n-screenshot-readme.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "n8n" },
@@ -116,7 +116,7 @@ export const projects = [
     description:
       "Blogplattform mit Fokus auf AGI, KI und digitale Transformation. Moderne Backend-Architektur und Cloud-Deployment.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/mockupBlog.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "Django" },
@@ -133,7 +133,7 @@ export const projects = [
     description:
       "Ein Memory-Spiel mit Cyberpunk-Design, KI-generierten Grafiken und ChatGPT-Integration. Läuft komplett im Browser.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/techsiniMemory.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "HTML" },
@@ -150,7 +150,7 @@ export const projects = [
     description:
       "Webplattform für nachhaltige Food-Innovationen mit automatisierten Prozessen und modernen Webtechnologien.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+    image: "/assets/projects/fuut.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "HTML" },
@@ -167,7 +167,7 @@ export const projects = [
     description:
       "No-Code Automatisierung von E-Mail- und Marketing-Prozessen mit Make, Airtable, Google Drive und HTTP-Modulen.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
+    image: "/assets/projects/make.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "Make" },
