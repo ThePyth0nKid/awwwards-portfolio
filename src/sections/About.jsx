@@ -14,7 +14,6 @@ Als Ultramarathonläufer liebe ich Herausforderungen und bringe Ausdauer und Fok
 
 In meiner freien Zeit
 ⚙️ Baue ich Automations und Open Source Tools
-🎥 Teile ich Wissen auf Twitch und YouTube
 🧩 Suche ich Herausforderungen auch abseits des Bildschirms
 🎶 Nutze Automatisierung um Raum für Kreativität zu schaffen`;
   const imgRef = useRef(null);
