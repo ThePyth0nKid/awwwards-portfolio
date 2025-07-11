@@ -10,8 +10,8 @@ import Works from "./sections/Works";
 import ContactSummary from "./sections/ContactSummary";
 import Contact from "./sections/Contact";
 import { useProgress } from "@react-three/drei";
-import CTAButton from "./components/CTAButton";
-import CTAModal from "./components/CTAModal";
+import CalendlyButton from "./components/CalendlyButton";
+import CalendlyModal from "./components/CalendlyModal";
 
 const App = () => {
   const { progress } = useProgress();
@@ -51,13 +51,13 @@ const App = () => {
         <ServiceSummary />
         <Services />
         <Training />
-        <CTAButton onClick={handleOpenModal} />
+        <CalendlyButton onClick={handleOpenModal} />
         <About />
         <Works />
-        <CTAButton onClick={handleOpenModal} />
+        <CalendlyButton onClick={handleOpenModal} />
         <ContactSummary />
         <Contact />
-        <CTAModal isOpen={modalOpen} onClose={handleCloseModal} />
+        <CalendlyModal isOpen={modalOpen} onClose={handleCloseModal} />
       </div>
     </ReactLenis>
   );
