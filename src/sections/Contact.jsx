@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Marquee items={items} className="text-white bg-transparent" />
+      <Marquee items={items} className="text-white bg-transparent mt-8 sm:mt-12" />
     </section>
   );
 };

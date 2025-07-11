@@ -36,20 +36,21 @@ const ContactSummary = () => {
   return (
     <section
       ref={containerRef}
-      className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16"
+      className="flex flex-col items-center justify-between min-h-screen gap-8 sm:gap-12 mt-16"
     >
       <Marquee items={items} />
-      <div className="overflow-hidden font-light text-center contact-text-responsive">
+      <div className="overflow-hidden font-light text-center contact-text-responsive px-2 sm:px-8">
         <p>
           Zeigen Sie mir Ihren Prozess – ich digitalisiere und automatisiere ihn, damit Sie Zeit und Geld sparen
         </p>
       </div>
       <Marquee
-        items={items2}
+        items={["kontaktiere uns", "kontaktiere uns", "kontaktiere uns"]}
         reverse={true}
         className="text-white bg-[#181818] border-y-2 border-white"
-        iconClassName="stroke-gold stroke-2 text-gold"
+        iconClassName="stroke-gold stroke-2 text-gold text-xl sm:text-2xl"
         icon="material-symbols-light:square"
+        gap="gap-x-32 sm:gap-x-48 md:gap-x-64"
       />
     </section>
   );

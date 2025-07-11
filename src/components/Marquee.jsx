@@ -9,6 +9,8 @@ const Marquee = ({
   icon = "mdi:star-four-points",
   iconClassName = "",
   reverse = false,
+  compact = false,
+  gap = "gap-x-8 sm:gap-x-24 md:gap-x-64",
 }) => {
   const containerRef = useRef(null);
   const itemsRef = useRef([]);
@@ -16,6 +18,7 @@ const Marquee = ({
   function horizontalLoop(items, config) {
     items = gsap.utils.toArray(items);
     config = config || {};
+    if (!items.length || !items[0]) return gsap.timeline();
     let tl = gsap.timeline({
         repeat: config.repeat,
         paused: config.paused,
@@ -152,9 +155,9 @@ const Marquee = ({
           <span
             key={index}
             ref={(el) => (itemsRef.current[index] = el)}
-            className="flex items-center px-20 gap-x-64 relative"
+            className={`flex items-center px-6 sm:px-12 md:px-20 ${gap} relative`}
           >
-            <span className="relative z-20 pr-8">{text}</span> 
+            <span className={compact ? "relative z-20 pr-4" : "relative z-20 pr-4 sm:pr-8"}>{text}</span> 
             <Icon icon={icon} className={`${iconClassName} relative z-10`} />
           </span>
         ))}
