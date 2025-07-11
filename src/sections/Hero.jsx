@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Lass uns gemeinsam die Zukunft gestalten"}
+        subTitle={"Digitalisierung, KI, Automatisierung und individuelle Software-Lösungen."}
         title={"Nelson Mehlis"}
         text={text}
         textColor={"text-white"}
