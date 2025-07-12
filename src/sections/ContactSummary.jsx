@@ -39,8 +39,8 @@ const ContactSummary = () => {
       className="flex flex-col items-center justify-between min-h-screen gap-8 sm:gap-12 mt-16"
     >
       <Marquee items={items} />
-      <div className="overflow-hidden font-light text-center contact-text-responsive px-2 sm:px-8">
-        <p>
+      <div className="overflow-hidden font-light text-center contact-text-responsive px-4 sm:px-6 md:px-8">
+        <p className="break-words">
           Zeigen Sie mir Ihren Prozess – ich digitalisiere und automatisiere ihn, damit Sie Zeit und Geld sparen
         </p>
       </div>

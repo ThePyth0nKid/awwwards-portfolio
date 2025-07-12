@@ -46,27 +46,27 @@ const AnimatedHeaderSection = ({
           className="flex flex-col justify-center gap-8 pt-16 pb-8 sm:gap-12 md:gap-16"
         >
           <p
-            className={`text-sm font-light tracking-[0.5rem] uppercase px-10 ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}
+            className={`text-sm font-light tracking-[0.5rem] uppercase px-4 sm:px-6 md:px-10 ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000] break-words`}
           >
             {subTitle}
           </p>
-          <div className="px-10">
+          <div className="px-4 sm:px-6 md:px-10">
             <h1
-              className={`flex flex-col gap-1 uppercase banner-text-responsive sm:gap-1 md:gap-6 lg:block ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}
+              className={`flex flex-col gap-1 uppercase banner-text-responsive sm:gap-1 md:gap-6 lg:block ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000] break-words`}
             >
               {titleParts.map((part, index) => (
-                <span key={index} className="leading-tight">{part} </span>
+                <span key={index} className="leading-tight break-words">{part} </span>
               ))}
             </h1>
           </div>
         </div>
       </div>
-      <div className={`relative px-10 ${textColor}`}>
+      <div className={`relative px-4 sm:px-6 md:px-10 ${textColor}`}>
         <div className="absolute inset-x-0 border-t border-white/20" />
         <div className="py-12 sm:py-16 text-end">
           <AnimatedTextLines
             text={text}
-            className={`font-light uppercase value-text-responsive ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000]`}
+            className={`font-light uppercase value-text-responsive ${textColor} [text-shadow:_-1px_-1px_0_#000,_1px_-1px_0_#000,_-1px_1px_0_#000,_1px_1px_0_#000] break-words`}
           />
         </div>
       </div>

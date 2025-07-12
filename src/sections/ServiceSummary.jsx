@@ -34,24 +34,24 @@ const ServiceSummary = () => {
     createYoyoTween("#title-service-4", 0, 50);
   }, []);
   return (
-    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
+    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive px-4 sm:px-6 md:px-10">
       <div id="title-service-1">
-        <p>Architektur</p>
+        <p className="break-words">Architektur</p>
       </div>
       <div id="title-service-2" className="flex flex-col items-center justify-center gap-3">
-        <p className="font-normal">Entwicklung</p>
-        <p>Automation</p>
-        <p>APIs</p>
-        <p className="italic">Frontends</p>
+        <p className="font-normal break-words">Entwicklung</p>
+        <p className="break-words">Automation</p>
+        <p className="break-words">APIs</p>
+        <p className="italic break-words">Frontends</p>
       </div>
       <div id="title-service-3" className="flex flex-col items-center justify-center gap-3">
-        <p>Skalierung</p>
-        <p>Datenbanken</p>
-        <p>Systemintegration</p>
+        <p className="break-words">Skalierung</p>
+        <p className="break-words">Datenbanken</p>
+        <p className="break-words">Systemintegration</p>
       </div>
       <div id="title-service-4" className="flex flex-col items-center justify-center gap-3">
-        <p>Prozessdigitalisierung</p>
-        <p>Workflow-Optimierung</p>
+        <p className="break-words">Prozessdigitalisierung</p>
+        <p className="break-words">Workflow-Optimierung</p>
       </div>
     </section>
   );

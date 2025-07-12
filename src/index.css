@@ -35,23 +35,64 @@ html {
   max-width: 100vw;
 }
 
+/* Prevent text overflow on small screens */
+@media (max-width: 640px) {
+  h1, h2, h3, p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  .banner-text-responsive,
+  .contact-text-responsive,
+  .value-text-responsive,
+  .marquee-text-responsive {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+/* Extra small screens (iPhone SE, etc.) */
+@media (max-width: 375px) {
+  .banner-text-responsive {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+  
+  .contact-text-responsive {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+  
+  .value-text-responsive {
+    font-size: 16px !important;
+    line-height: 1.3 !important;
+  }
+  
+  .marquee-text-responsive {
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+  }
+}
+
 @utility clip-path {
   clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
 }
 
 @utility banner-text-responsive {
-  @apply text-[32px] sm:text-[50px] md:text-[70px] lg:text-[90px] leading-8 sm:leading-6 md:leading-7 lg:leading-12;
+  @apply text-[24px] sm:text-[32px] md:text-[50px] lg:text-[70px] xl:text-[90px] leading-tight sm:leading-tight md:leading-tight lg:leading-tight xl:leading-12;
 }
 
 @utility value-text-responsive {
-  @apply text-2xl md:text-[26px] lg:text-[32px];
+  @apply text-lg sm:text-xl md:text-[26px] lg:text-[32px];
 }
 
 @utility marquee-text-responsive {
-  @apply text-[28px] sm:text-[36px] lg:text-[42px];
+  @apply text-[20px] sm:text-[28px] md:text-[36px] lg:text-[42px];
 }
 
 @utility contact-text-responsive {
-  @apply text-[42px] sm:text-[52px] md:text-[62px] lg:text-[100px];
+  @apply text-[24px] sm:text-[32px] md:text-[42px] lg:text-[62px] xl:text-[100px];
 }
 
