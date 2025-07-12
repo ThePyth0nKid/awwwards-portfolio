@@ -148,7 +148,7 @@ const Marquee = ({
   return (
     <div
       ref={containerRef}
-      className={`overflow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase ${className}`}
+      className={`overflow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase whitespace-nowrap ${className}`}
     >
       <div className="flex">
         {items.map((text, index) => (
@@ -157,7 +157,7 @@ const Marquee = ({
             ref={(el) => (itemsRef.current[index] = el)}
             className={`flex items-center px-6 sm:px-12 md:px-20 ${gap} relative`}
           >
-            <span className={`${compact ? "relative z-20 pr-4" : "relative z-20 pr-4 sm:pr-8"} break-words`}>{text}</span> 
+            <span className={compact ? "relative z-20 pr-4" : "relative z-20 pr-4 sm:pr-8"}>{text}</span> 
             <Icon icon={icon} className={`${iconClassName} relative z-10`} />
           </span>
         ))}
